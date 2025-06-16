@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap'); 
+
+/*.bad-script-regular {
+  font-family: "Bad Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Explora&family=Victor+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+/* .victor-mono-<uniquifier> {
+  font-family: "Victor Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Comfortaa:wght@300..700&family=Explora&family=Victor+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+/*.comfortaa-<uniquifier> {
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;}
+  */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #02182b;
+    color: white;
+}
+
+header{
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+
+
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    border-bottom: 1px solid azure;
+    background-color: #02182b;
+    padding: 20px;
+    z-index: 1000;
+
+}
+
+header h1{
+    font-family: "Bad Script", cursive;
+    font-size: 1.7em;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+}
+
+nav li {
+    list-style: none;
+    
+}
+
+nav a{
+    font-family: "Comfortaa", sans-serif;
+    font-size: 1em;
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease
+    
+}
+
+nav a:hover{
+    color: #448fa3;
+    
+}
+
+main{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section.hero{
+    background-color: ;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+.hero h1{
+    font-family: "Comfortaa", sans-serif;
+    text-shadow: 5px 5px 5px black;
+
+}
+
+.hero p{
+    font-family: "Victor Mono", monospace;
+    font-size: 0.8em;
+    
+}
+
+div.texto{
+    color: azure;
+}
+
+
+
+section.Sobre{
+
+    background: url(imagens/fundo-site.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    text-align: center;
+    
+    
+}
+
+.conteudo{
+    max-width: 600px;
+}
+
