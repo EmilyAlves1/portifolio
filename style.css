@@ -100,7 +100,6 @@ main{
 }
 
 section.hero{
-    background-color: ;
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
@@ -129,31 +128,35 @@ div.texto{
 
 
 section.Sobre{
-
-    
-
     display: flex;
     justify-content: center;
     align-items: center;
     height: 400px;
-    text-align: center;
+    
     
     
 }
 
 .conteudo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     max-width: 800px;
+    font-family: "Comfortaa", sans-serif;
+    
 }
 
 .conteudo > h1{
-    font-family: "Comfortaa", sans-serif;
     border-top: 1px solid rgba(240, 255, 255, 0.562);
     padding: 20px;
+    color: rgba(240, 255, 255, 0.747);
+
 }
 
 .conteudo > p {
-    font-family: "Comfortaa", sans-serif;
+    font-size: 1em;
     text-align: center;
+    color: rgba(240, 255, 255, 0.753);
     line-height: 1.6;
     text-shadow: 5px 5px 5px black;
     
@@ -161,5 +164,37 @@ section.Sobre{
 
 span{
 
-    color: #448fa3 ;
+    color: #448ea3ef ;
+}
+
+button{
+    background-color: #448fa3;
+    font-family: "Comfortaa", sans-serif;
+    font-size: 1.3em;
+    color: azure;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.918);
+    margin-top: 20px;
+    width: 150px;
+    padding: 10px;
+    transition: color 0.3s ease
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #0b3844;
+    color: #77afe0;
+    
+
+
+}
+
+.rodape {
+  text-align: center;
+  padding: 15px 10px;
+  font-size: 14px;
+  color: rgba(240, 255, 255, 0.712);
+  background-color: #02182b;
+  border-top: 1px solid azure;
 }
